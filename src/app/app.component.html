@@ -5,6 +5,7 @@
     </option>
   </select>
 </div>
+<br>
 <div >
   
   <table >
@@ -15,10 +16,10 @@
       <th>status</th>
     </tr>
     <tr *ngFor="let a of abc">
-      <td>{{a.id}}</td>
+      <td style="text-align: center;">{{a.id}}</td>
       <td>{{a.title}}</td>
-      <td>{{a.userId}}</td>
-      <td><input type="checkbox" [checked]="a.completed" ></td>
+      <td style="text-align: center;">{{a.userId}}</td>
+      <td style="text-align: center;"><input type="checkbox" [checked]="a.completed" ></td>
       
     </tr>
    
